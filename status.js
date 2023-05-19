@@ -1,5 +1,5 @@
 import { error } from 'console';
-import { fs } from 'fs';
+import  fs from "fs";
 let status = {};
 
 try {
