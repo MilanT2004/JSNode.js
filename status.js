@@ -1,5 +1,6 @@
 import  error from 'console';
 import  fs from "fs";
+export const status;
 let status = {};
 
 try {
