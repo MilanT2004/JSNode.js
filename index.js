@@ -1,4 +1,4 @@
-import status  from './status.js'
+import {status}  from './status.js'
 import http from 'http'
 
 
