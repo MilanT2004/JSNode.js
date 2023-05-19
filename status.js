@@ -1,7 +1,6 @@
 import  error from 'console';
 import  fs from "fs";
-export const status;
-let status = {};
+export let status = {};
 
 try {
   const fileContent = fs.readFileSync('./status', 'utf8');
