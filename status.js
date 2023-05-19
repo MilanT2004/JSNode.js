@@ -6,7 +6,6 @@ try {
   const fileContent = fs.readFileSync('./status', 'utf8');
   status = JSON.parse(fileContent);
 } catch (err) {
-  throw new Error("error fileread");
 }
 app.put('/updateStatus', (req, res) => {
 
